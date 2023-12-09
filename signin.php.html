@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set the character set for the document -->
+    <meta charset="UTF-8">
+
+    <!-- Configure viewport settings for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link to the external stylesheet for styling -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Set the title of the HTML document -->
+    <title>Sign In</title>
+</head>
+<body>
+<!-- Sign-in form starts here -->
+<form action="./auth.php" method="post">
+    <!-- Input field for the username with a label -->
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <!-- Input field for the password with a label -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <!-- Submit button to submit the form -->
+    <button type="submit">Sign In</button>
+</form>
+</body>
+</html>
